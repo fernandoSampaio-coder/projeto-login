@@ -47,6 +47,11 @@ verde-creme mais cinza
     section#form > p{
         font-size: 1.2em;
     }
+
+    form > div.campo{
+        display: inline-block;
+    }
+
 }
 
 @media screen and (min-width: 1280px){
@@ -81,5 +86,9 @@ verde-creme mais cinza
 
     section#form > p{
         font-size: 1.2em;
+    }
+
+    form > div.campo{
+        display: inline-block;
     }
 }
