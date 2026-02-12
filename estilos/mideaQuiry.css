@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*
+
+verde principal #4C5E1F
+verde mais claro #A2B377
+verde mais escuro #2C341A
+verde-creme claro #F1FFCD
+verde-creme mais verde #E5FFA2
+verde-creme mais cinza 
+
+*/
+
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    article#login{
+        width: 80vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    article section#imagem{
+        flex-basis: 30%;
+        width: 30%;
+        height: 100%;
+        background: #4d5f1f url(../imagens/background-media.jpg) no-repeat;
+        background-size: cover;
+        background-position:  100% 50%;
+    }
+
+    article section#form{
+        flex-basis: 70%;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1280px){
+     article#login{
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    article section#imagem{
+        flex-basis: 50%;
+        width: 50%;
+        height: 100%;
+        background: #4d5f1f url(../imagens/background-grande.jpg) no-repeat;
+        background-size: cover;
+        background-position:  100% 50%;
+    }
+
+    article section#form{
+        flex-basis: 50%;
+        width: 50%;
+    }
+
+}
