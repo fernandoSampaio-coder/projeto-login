@@ -43,6 +43,10 @@ verde-creme mais cinza
         flex-basis: 70%;
         width: 70%;
     }
+    
+    section#form > p{
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 1280px){
@@ -70,5 +74,12 @@ verde-creme mais cinza
         flex-basis: 50%;
         width: 50%;
     }
+    
+    section#form > h1{
+        font-size: 2em;
+    }
 
+    section#form > p{
+        font-size: 1.2em;
+    }
 }
