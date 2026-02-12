@@ -19,5 +19,21 @@ verde-creme mais cinza
 
 body{
     background-color: #4d5f1f;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: 70%;
+
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
